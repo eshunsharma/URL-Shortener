@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>URL Shortner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&ver=4.4.1">
+</head>
+<body>
+	<nav class="navbar navbar-shortner">
+	  	<div class="container-fluid">
+	    	<div class="navbar-header">
+	      		<a class="navbar-brand" href="javascript:void(0);">
+	        		URL SHORTNER
+	      		</a>
+	    	</div>
+	  	</div>
+	</nav>
+	<div class="container">
+		<div class = "col-lg-8 col-lg-offset-2 validurl">
+			<h5>Please Enter a Valid URL</h5>
+		</div>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+		  <p>Simple, hassle-less URL shortener for your big Links!</p>
+				<div class="row">
+				 <div class="col-lg-8 col-lg-offset-2" style="padding-right:7px;padding-left: 9px;">
+				    <div class="input-group">
+				      <input type="url" class="form-control" placeholder="Paste your URL here !!!" required>
+				      <span class="input-group-btn">
+				        <button class="btn btn-shortner" type="button">Shorten !</button>
+				      </span>
+				    </div>
+				  </div>
+				</div>
+				<div class="genrated-link col-lg-8 col-lg-offset-2">
+				<div class="wrapper">
+				    <div class="circle"></div>
+				    <div class="circle"></div>
+				    <div class="circle"></div>
+				    <div class="circle"></div>
+				</div>
+					<h5 id="link">Generated link will be displayed here</h5>
+					<h6>The link is auto destructable after first visit</h6>
+				</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<hr>
+		<p>Developed by Eshun Sharma</p>
+	</footer>
+</body>
+</html>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="src/js/main.js"></script>
